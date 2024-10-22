@@ -6,10 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @property float $price
- * @property int $quantity
+ * @property string $name
  */
-class CartItem extends Model
+class Customer extends Model
 {
     use HasFactory;
 }
